@@ -14,11 +14,12 @@ body{
     background-color: #0A192F;
 }
 .logo img{
-    height: 50px;
+    height: 100px;
     margin: 20px;
     
     
 }
+
 
 /* landing section */
 .hero .card h1{
@@ -39,16 +40,34 @@ body{
 
 .aboutakan .card-text{
     color: #77829F;
+    font-size: 20px;
+    font-weight: 500;
 }
 .aboutakan .card-title{
     color: #CCD6F6;
     font-weight: 700;
+
 }
 .aboutakan .row{
    display: flex;
    justify-content: center;
 }
-form section
+/* form section */
+.details label{
+    color: #8892B0;
+    font-size: 20px;
+    
+
+}
+.details p{
+    color: #CCD6F6;
+    font-size: 20px;
+}
+.details input{
+    color: #77829F;
+    font-size: 25px;
+    
+}
 
 
 
