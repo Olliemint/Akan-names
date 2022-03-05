@@ -15,3 +15,17 @@ html{
     
     
 }
+.container-fluid{
+    background-color: #0A192F;
+}
+.container-fluid .card h1{
+    color: #CCD6F6;
+}
+.container-fluid .card p{
+    color: #8892B0;
+}
+.container-fluid .card{
+    display: flex;
+    align-items: center;
+    background-color: #0A192F;
+}
