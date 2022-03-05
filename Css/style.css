@@ -68,6 +68,15 @@ body{
     font-size: 25px;
     
 }
+.results{
+    height: 50px;
+    background-color: aliceblue;
+}
+.details{
+    display: flex;
+    gap: 10%;
+    
+}
 
 
 
