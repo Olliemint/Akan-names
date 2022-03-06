@@ -64,13 +64,13 @@ body{
     text-decoration: none;
     
 }
-.aboutakan button{
+.aboutakan .btn{
     height: 40px;
     color: #4E9E92;
     border: 1px solid #4E9E92;
-    width: 30%;
+    width: 20%;
 }
-.aboutakan button:hover{
+.aboutakan .btn:hover{
     background-color: #142E3F;
     color: #4E9E92;
 }
