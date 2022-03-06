@@ -160,14 +160,14 @@
                         
                       <p class="card-text">Please enter date of birth</p>
                       <form id="form">
-                        <input type="date" name="name" min="1960 -1 -1" max="2022 -12 -1">
+                        <input type="date" name="name" min="1960 -1 -1" max="2022 -12 -1" required>
                         <br>
                        
                         <p>Please Select Gender:</p>
                         <label for="male">Male</label><br>
-                        <input type="radio" name="gender" value="male"><br>
+                        <input type="radio" name="gender" value="male" required><br>
                         <label for="female">Female</label><br>
-                        <input type="radio" name="gender" value="female"><br>
+                        <input type="radio" name="gender" value="female" required><br>
                         
                         
                         
@@ -182,7 +182,8 @@
                 <div class="col-sm-4">
                   <div class="card">
                     <div class="card-body">
-                        <p>asdfgds</p>
+                        <p id="congrats"></p>
+                        <p id="second"></p>
         
                    
                      

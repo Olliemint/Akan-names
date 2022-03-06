@@ -69,6 +69,7 @@ body{
     color: #4E9E92;
     border: 1px solid #4E9E92;
     width: 20%;
+    
 }
 .aboutakan .btn:hover{
     background-color: #142E3F;
@@ -177,6 +178,9 @@ body{
     font-size: 11px;
     text-align: center;
     
+}
+#congracts{
+    text-align: center;
 }
 
 
