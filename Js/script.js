@@ -19,6 +19,13 @@ form.addEventListener("submit", (e) =>{
             
     }
     
+    // gender pick statements
+    if (gender == "female"){
+        alert("your gender is female")
+    }
+    else{
+        alert("your gender is male")
+    }
     
 
     
