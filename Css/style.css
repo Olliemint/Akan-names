@@ -160,6 +160,13 @@ body{
  }
 #footer .card{
     background-color: #0A192F;
+    border-top: 1px solid #142E3F;
+}
+#footer .copyright p{
+    color: #77829F;
+    font-size: 11px;
+    text-align: center;
+    
 }
 
 
