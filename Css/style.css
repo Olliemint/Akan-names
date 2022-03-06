@@ -69,15 +69,20 @@ body{
     
 }
 .results{
-    height: 50px;
-    background-color: aliceblue;
+    height: 270px;
+    
+    width: 30%;
+    background-color: aqua;
 }
 .details{
     display: flex;
     gap: 10%;
     
+    
 }
-
+.sociallinks .card{
+    
+}
 
 
 

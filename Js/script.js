@@ -1,3 +1,5 @@
+
+
 let button = document.getElementById("btn");
 let form = document.getElementById("form");
 form.addEventListener("submit", (e) =>{
@@ -20,12 +22,14 @@ form.addEventListener("submit", (e) =>{
     }
     
     // gender pick statements
-    if (gender == "female"){
-        alert("your gender is female")
+    if (genderValue == "female"){
+        document.getElementById("output").innerHTML = ("hurray");
+
     }
     else{
         alert("your gender is male")
     }
+   
     
 
     
