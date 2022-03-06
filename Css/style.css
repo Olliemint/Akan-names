@@ -52,6 +52,22 @@ body{
    display: flex;
    justify-content: center;
 }
+.aboutakan .card a{
+    
+    color: #4E9E92;
+    text-decoration: none;
+    
+}
+.aboutakan button{
+    height: 40px;
+    color: #4E9E92;
+    border: 1px solid #4E9E92;
+    width: 30%;
+}
+.aboutakan button:hover{
+    background-color: #142E3F;
+    color: #4E9E92;
+}
 /* form section */
 .details label{
     color: #8892B0;
@@ -64,8 +80,13 @@ body{
     font-size: 20px;
 }
 .details input{
-    color: #77829F;
+    background-color: #77829F;
     font-size: 25px;
+    color: #CCD6F6;
+    
+}
+.details button{
+    color: #4E9E92;
     
 }
 .results{
@@ -81,7 +102,8 @@ body{
     
 }
 .sociallinks .card{
-    
+    background-color: #0A192F;
+    margin: 5px;
 }
 
 
