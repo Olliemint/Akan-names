@@ -12,6 +12,8 @@ html{
 }
 body{
     background-color: #0A192F;
+    border-top: 5px solid #142E3F;
+    border-top-style: double;
 }
 .logo img{
     height: 100px;
@@ -32,15 +34,19 @@ body{
     display: flex;
     align-items: center;
     background-color: #0A192F;
+    border-top: 1px solid #4E9E92;
+    
 }
 /* about akan section */
 .aboutakan .card{
     background-color: #0A192F;
+    border-top: 1px solid #4E9E92;
+    border-top-style: dotted;
 }
 
 .aboutakan .card-text{
     color: #77829F;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
 }
 .aboutakan .card-title{
@@ -126,12 +132,15 @@ body{
      font-size: 15px ;
  }
  #details p{
-     color: #CCD6F6;
+     color: #8892B0;
      font-size: 20px;
      font-weight: 700;
  }
+
  #details .card{
      background-color: #0A192F;
+     border-top: 1px solid #4E9E92;
+     border-top-style: dotted;
  }
  #details button{
     color: #4E9E92;
@@ -161,6 +170,7 @@ body{
 #footer .card{
     background-color: #0A192F;
     border-top: 1px solid #142E3F;
+    border-bottom: 2px solid #4E9E92;
 }
 #footer .copyright p{
     color: #77829F;
