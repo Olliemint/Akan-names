@@ -149,7 +149,18 @@ body{
     background-color: #142E3F;
     
  }
-
+ 
+ /* footer section */
+ #footer .card-body{
+     display: flex;
+     justify-content: center;
+ }
+ #footer li{
+     display: inline-block;
+ }
+#footer .card{
+    background-color: #0A192F;
+}
 
 
 
