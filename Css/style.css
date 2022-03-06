@@ -87,7 +87,16 @@ body{
 }
 .details button{
     color: #4E9E92;
-    
+    background-color: #0A192F;
+    border: 1px solid #4E9E92;
+    height: 40px;
+    width: 40%;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+.details button:hover{
+    background-color: #142E3F;
 }
 .results{
     height: 270px;
