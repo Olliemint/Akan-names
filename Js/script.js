@@ -33,7 +33,7 @@ form.addEventListener("submit", (e) =>{
         document.getElementById("congrats").style.color = "#CCD6F6"
         document.getElementById("congrats").style.fontSize = "50px"
 
-        document.getElementById("second").innerHTML = (" You were born on " +days[birthDay]+ " And your Akan name is " +akanFemale[birthDay]);
+        document.getElementById("second").innerHTML = (" You were born on " +days[birthDay]+ "And Your Akan name is " +akanFemale[birthDay]);
         document.getElementById("second").style.fontSize = "30px"
         document.getElementById("second").style.color = "#CCD6F6"
         
@@ -49,7 +49,7 @@ form.addEventListener("submit", (e) =>{
         document.getElementById("congrats").style.color = "#CCD6F6"
         document.getElementById("congrats").style.fontSize = "50px"
         
-        document.getElementById("second").innerHTML = (" You were born on " +days[birthDay]+ " And your Akan name is " +akanMale[birthDay]);
+        document.getElementById("second").innerHTML = (" You were born on " +days[birthDay]+ "And Your Akan name is " +akanMale[birthDay]);
         document.getElementById("second").style.fontSize = "30px"
         document.getElementById("second").style.color = "#CCD6F6"
 
