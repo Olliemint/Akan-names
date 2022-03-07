@@ -62,3 +62,9 @@ form.addEventListener("submit", (e) =>{
 
     
 })
+
+function resetall(){
+    document.getElementById("congrats").innerHTML = ""
+    document.getElementById("second").innerHTML = ""
+
+}

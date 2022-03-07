@@ -123,10 +123,24 @@ body{
     justify-content: center;
     
  }
- #details input{
-     color: #CCD6F6;
+ .radios input{
+    
+     height: 22px;
+     width: 10%;
+     
+ }
+ .dateq input{
+     color: white;
      background-color: #77829F;
+     font-weight: 700;
+     font-size: 20px;
+     height: 35px;
+     width: 40%;
 
+ }
+ .radios label{
+     font-size: 200px;
+     font-weight: 700;
  }
  #details label{
      color: #CCD6F6;
@@ -143,7 +157,7 @@ body{
      border-top: 1px solid #4E9E92;
      border-top-style: dotted;
  }
- #details button{
+ #details #btn{
     color: #4E9E92;
     background-color: #0A192F;
     border: 1px solid #4E9E92;
@@ -152,11 +166,28 @@ body{
     font-weight: 700;
     border-radius: 5px;
     margin: 10px;
-    margin-left: 60px;
+    margin-left: 20px;
     
  }
- #details button:hover{
+ #details #btn:hover{
     background-color: #142E3F;
+    
+ }
+ #details #reset{
+    color: #4E9E92;
+    background-color: #142E3F;
+    border: 1px solid #4E9E92;
+    height: 30px;
+    width: 15%;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px;
+    
+    
+ }
+ #details #reset:hover{
+    background-color: #4E9E92;
+    color: brown;
     
  }
  
@@ -200,9 +231,3 @@ body{
 
 
 
-@media (max-width:500px){
-    .logo img{
-        display: flex;
-        justify-content: center;
-    }
-}

@@ -160,18 +160,22 @@
                         
                       <p class="card-text">Please enter date of birth</p>
                       <form id="form">
+                       <div class="dateq">
                         <input type="date" name="name" min="1960 -1 -1" max="2022 -12 -1" required>
-                        <br>
-                       
+
+                       </div>
+                       <br>
+                       <div class="radios">
                         <p>Please Select Gender:</p>
                         <label for="male">Male</label><br>
                         <input type="radio" name="gender" value="male" required><br>
                         <label for="female">Female</label><br>
                         <input type="radio" name="gender" value="female" required><br>
-                        
-                        
-                        
+                       </div>
+      
                         <button id="btn">Submit</button>
+                        <button type="reset" id="reset" onclick="resetall()">Reset</button>
+
                         
     
                     </form>
