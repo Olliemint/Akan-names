@@ -34,8 +34,8 @@
 
 ### Behaviour Driven Development (BDD)
 
-### | Behaviour | Input | Output |
-| ------------- | ------------- |
+| Behaviour | Input | Output |
+| ------------- | ------------- | ------------- |
 | Page will load to a Landing page and display form  | User reads and get to know about Akan names  | The Akan Name will be displayed when correct inputs are placed |
 
 ## Reference
