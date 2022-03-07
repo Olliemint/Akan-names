@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) =>{
     let formData = new FormData(e.target);
     let myDate = new Date(formData.get("name"));
     let birthDay = myDate.getDay();
-    alert(birthDay)
+    
 
     
     // gender fuctionality
@@ -29,16 +29,31 @@ form.addEventListener("submit", (e) =>{
     
     // gender pick statements
     if (genderValue == "female"){
-        document.getElementById("congrats").innerHTML = ("HURRAY");
+        document.getElementById("congrats").innerHTML = ("HURRAY!!!");
         document.getElementById("congrats").style.color = "#CCD6F6"
+        document.getElementById("congrats").style.fontSize = "50px"
+
         document.getElementById("second").innerHTML = (" You were born on " +days[birthDay]+ " And your Akan name is " +akanFemale[birthDay]);
+        document.getElementById("second").style.fontSize = "30px"
+        document.getElementById("second").style.color = "#CCD6F6"
+        
+        
+
+
+
         
 
     }
     else{
-        document.getElementById("congrats").innerHTML = ("HURRAY");
+        document.getElementById("congrats").innerHTML = ("HURRAY!!!");
         document.getElementById("congrats").style.color = "#CCD6F6"
+        document.getElementById("congrats").style.fontSize = "50px"
+        
         document.getElementById("second").innerHTML = (" You were born on " +days[birthDay]+ " And your Akan name is " +akanMale[birthDay]);
+        document.getElementById("second").style.fontSize = "30px"
+        document.getElementById("second").style.color = "#CCD6F6"
+
+
     }
 
    
